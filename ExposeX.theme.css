@@ -1,0 +1,22 @@
+//META{"name":"Expose","description":"Cleaner than you think?","author":"Corbs","version":"Beta_0.3"}*//{}
+
+
+@import url(https://heathenish-pigeon-8722.dataplicity.io/Discord/ExposeRaw.theme.css);
+
+
+.appMount-14L89u {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-image: url(https://static.wixstatic.com/media/d90ae2_68f784ad5548491ebfa1cb59dcc9b0e6~mv2.gif);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
