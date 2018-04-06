@@ -1188,7 +1188,26 @@ body {
     position: fixed;
 }
 
+.theme-dark .members-1bid1J {
+    background-color: rgba(47, 49, 54, 0);
+}
 
+.typeWindows-15E0Ys {
+    height: 0px;
+    margin-top: 1px;
+}
+
+.title-qAcLxz, .titleCall-3X0yGQ {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 48px;
+    padding: 0 8px 0 12px;
+    width: 1041px;
+}
 
 
 
