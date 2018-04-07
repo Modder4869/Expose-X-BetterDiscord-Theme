@@ -1179,3 +1179,71 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+.content-2mSKOj {
+    -ms-flex-align: center;
+    -ms-flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-sizing: border-box;
+    align-items: center;
+    border-radius: 103px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    margin: 1px 0 1px 8px;
+    overflow: hidden;
+    padding: 0 8px;
+}
+
+.member-2FrNV0 {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-box-sizing: border-box;
+    align-items: center;
+    border-radius: 103px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    margin: 1px 0 1px 8px;
+    overflow: hidden;
+}
+
+.topSectionPlaying-3jAH9b {
+    background: #202225;
+}
+
+.topSectionSpotify-3744IX {
+    background: #202225;
+}
+
+.message.message-sending .markup{
+    animation: messages-slide-up 300ms cubic-bezier(.3,0,0,1),opacity 500ms ease infinite;
+}
+@keyframes messages-slide-up{
+    from{
+        transform: translate(0,10px);
+    }
+}
+
+
+
+
+
+
+
+
