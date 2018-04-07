@@ -1455,7 +1455,7 @@ div.avatar-large {
 .message-group .edit-message {
     display: block;
     position: relative;
-    background: #0a0a0a;
+    background: rgba(10, 10, 10, 0);
     padding: 10px 15px;
     white-space: pre;
     margin-bottom: -10px;
@@ -1463,12 +1463,12 @@ div.avatar-large {
     border-radius: 0px;
     margin-left: 0px;
     margin-right: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .2);
     font-weight: 600;
     color: var(--white10);
     text-transform: initial;
-    text-align:center;
-    order:-10;
+    text-align: center;
+    order: -10;
 }
 
 
