@@ -1240,7 +1240,19 @@ body {
     }
 }
 
-
+.theme-dark .autocomplete-1TnWNR {
+    display: block;
+    background-color: #0f0f0f;
+    border-radius: 3px 3px 0 0;
+    opacity: 1!important;
+    animation: autocomplete-slide-up 200ms ease;
+}
+@keyframes autocomplete-slide-up {
+    0% {
+        transform:translateY(10px);
+        opacity: 0;
+    }
+}
 
 
 
