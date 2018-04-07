@@ -1338,6 +1338,7 @@ body {
     text-transform: initial;
     text-align:center;
     order:-10;
+    border-radius: 50px;
 }
 
 
