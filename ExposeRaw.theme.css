@@ -1189,7 +1189,6 @@ body {
   }
   
   
-/* Chat reactions */
 .message-group .reaction {
     background: none;
     position: relative;
@@ -1306,23 +1305,7 @@ body {
     height: 30px;
     animation: 500ms reactionpulse ease;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+   
 .message-group .avatar-large.popout-open {
     display: block;
     position: relative;
@@ -1347,6 +1330,7 @@ div.avatar-large {
     height: 50px;
     float: left;
     margin: 0 1px;
+    border-radius: 50px
 }
 
 .message-group .avatar-large {
@@ -1374,7 +1358,6 @@ div.avatar-large {
   box-shadow: 0 0px 20px 5px rgba(0, 0, 0, .3);
 }
 
-/* Messages */
 .message-group {
 	border: none;
     padding: 3px 0px;
@@ -1406,7 +1389,6 @@ div.avatar-large {
       }
   }
 
-/* Latest sent messge */
 .message-group:last-of-type {
     margin-bottom: 5px!important;
 }
@@ -1486,7 +1468,6 @@ div.avatar-large {
     background: transparent!important;
 }
 
-/* Message edited icon */
 .message-group .comment .edited {
     cursor: default;
     font-size: 0;
