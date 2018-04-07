@@ -1323,22 +1323,21 @@ body {
   
   
   
-.message-group .avatar-large.popout-open{
+.message-group .avatar-large.popout-open {
     display: block;
     position: relative;
     background: var(--accent-color);
     padding: 3px 3px;
     white-space: pre;
     margin-bottom: -10px;
-    margin-bottom:5px;
-    border-radius: 2px;
+    margin-bottom: 5px;
+    border-radius: 50px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
     font-weight: 600;
     color: var(--white10);
     text-transform: initial;
-    text-align:center;
-    order:-10;
-    border-radius: 50px;
+    text-align: center;
+    order: -10;
 }
 
 
