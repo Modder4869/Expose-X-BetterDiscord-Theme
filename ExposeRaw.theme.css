@@ -1082,7 +1082,7 @@ body {
     display: flex;
     height: 48px;
     padding: 0 8px 0 12px;
-    width: 1041px;
+    width: 92%;
 }
 
 .menu-3BZuDT {
@@ -1131,7 +1131,7 @@ body {
     line-height: 18px;
     margin: 0;
     padding: 10px 14px;
-    background-color: white;
+    background-color: white;    
     border-radius: 50px;
     margin-top: 7px;
 }
@@ -1155,7 +1155,26 @@ body {
     transform: scale(1.1);
 }
 
+.winButton-U7zAqI {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 22px;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative;
+    top: 10px;
+    width: 28px;
+}
 
+.wordmark-2L03Wr {
+    font-size: 0;
+    left: 0;
+    opacity: .6;
+    padding: 4px 8px 3px;
+    pointer-events: none;
+    position: fixed;
+    top: -34px;
+}
 
 
 
