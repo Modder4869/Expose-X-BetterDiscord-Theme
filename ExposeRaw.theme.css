@@ -1,6 +1,23 @@
 //META{"name":"Expose","description":"Cleaner than you think?","author":"Corbs","version":"Beta_0.5"}*//{}
 
 
+:root {
+    --version: "Expose X | Beta 0.5";
+}
+
+
+.typeWindows-15E0Ys::before {
+    content: var(--version);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    position: fixed;
+    top: 12px;
+    width: 100px;
+    right: -2px;
+}
+
+
 
 
 body {
@@ -715,6 +732,12 @@ body {
     background-color: rgba(41, 53, 72, 0);
 }
 
+
+.theme-dark .divider-1G01Z9 {
+    background-color: hsla(218, 5%, 47%, 0);
+}
+
+
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
 }
@@ -1378,11 +1401,11 @@ div.avatar-large {
 .wordmark-2L03Wr {
     font-size: 0;
     left: 0;
-    opacity: -1.4;
+    opacity: 1;
     padding: 4px 8px 3px;
     pointer-events: none;
     position: absolute;
-    top: 0px;
+    top: -260px;
 }
 
 .typeWindows-15E0Ys {
@@ -1397,7 +1420,7 @@ div.avatar-large {
     opacity: .6;
     pointer-events: auto;
     position: relative;
-    top: 31px;
+    top: 37px;
     width: 37px;
 }
 
@@ -1421,4 +1444,195 @@ div.avatar-large {
     background: linear-gradient(50deg,hsla(0,0%,100%,.05) 0%,hsla(0,0%,100%,0));
     color: #b9bbbe;
 }
+
+.theme-dark #friends {
+    background-color: rgba(54, 57, 62, 0);
+    width: 76%;
+}
+
+.theme-dark .message-group .comment .markup {
+    color: hsla(0,0%,100%,.7);
+    margin-top: 12px;
+}
+
+.popout.popout-left.no-arrow[style*="visibility: visible;"]{
+  transform:translate(-100%,0)!important;
+  transform-origin: top right;
+  box-shadow: 0 0px 5px #000000 !important;
+  animation: user-popout-left 300ms cubic-bezier(.4,0,0,1)!important;
+}
+body:active .popout.popout-left.no-arrow[style*="visibility: visible;"]:not(:active){
+  transform:translate(calc(20px - 100%),0) scale(.95,1)!important;
+  opacity:0;
+  transition: 150ms cubic-bezier(.4,0,0,1)!important;
+}
+@keyframes user-popout-left {
+  0% {
+    transform:translate(calc(20px - 100%),0) scale(.95,1);
+  }
+}
+.popout.popout-right.no-arrow[style*="visibility: visible;"]{
+  transform:translate(0,0)!important;
+  transform-origin: top left;
+  animation: user-popout-right 300ms cubic-bezier(.4,0,0,1)!important
+}
+body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:active){
+  transform:translate(-20px,0) scale(.95,1)!important;
+  opacity:0;
+  transition: 150ms cubic-bezier(.4,0,0,1)!important;
+}
+@keyframes user-popout-right {
+  0% {
+    transform:translate(-20px,0) scale(.95,1);
+  }
+}
+
+.status-3jUEha:after {
+	display: none;
+}
+
+.bar-Y-RLyN {
+  display: none;
+}
+
+.guilds-wrapper {
+    width: 100px;
+  }
+  .guilds-wrapper .scroller-wrap {
+      width: 200px;
+  }
+  
+
+.guilds-wrapper .guilds {
+    padding-left: 25px; 
+    align-items: center;
+    height: calc(100% - 105px);
+}
+  .guilds-wrapper .guilds .guild+.guild {
+    display: block;
+    transition: all 0.2s ease !important;
+}
+
+  .guilds-wrapper .guild.guilds-add {
+    border: 0px;
+    transition: all 200ms ease!important;
+    font-size: 32px;
+    font-weight: 600;
+
+    position: absolute!important;
+    left: 23px;
+    bottom: 20px;
+    color: transparent;
+
+
+    padding-top: -40px;
+}
+.guilds-wrapper .guild.guilds-add:hover {
+    background-position: 50%!important;
+}
+
+.guilds-wrapper .guild.guilds-add::after {
+    transition: all 200ms ease!important;
+    transform: translate(0%, -65%);
+    left: 50px;
+    bottom: 20px;
+    z-index: 1;
+    content: "";
+    display: block;
+    height: 50px;
+    width: 50px;
+    content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDEzaC02djZoLTJ2LTZINXYtMmg2VjVoMnY2aDZ2MnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
+    background-position: 10%!important;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px var(--white1) inset;
+    line-height:53px;
+}   
+
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background-color: #36393f;
+    color: #fff;
+    transform: scale(1.1);
+    margin-left: 9px;
+    transition: all 0.1s cubic-bezier(0.29, 0.29, 0.26, 0.3) !important;
+}
+
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
+    background-color: #3ca374;
+    transition: all 0.1s cubic-bezier(0.29, 0.29, 0.26, 0.3) !important;
+    transform: scale(1.1);
+}
+
+.content-2mSKOj:hover {
+    transform: scale(1);
+    transition: all 0.1s cubic-bezier(0.29, 0.29, 0.26, 0.3) !important;
+}
+
+.container-1WaXoH {
+    width: 250px;
+    margin-left: -120px;
+}
+
+.popout header {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background-color: rgb(51, 54, 59);
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    padding: 13px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.popout section {
+    background-color: hsl(218, 7%, 22%);
+    border-radius: 0 0 3px 3px;
+    padding: 20px;
+}
+
+.theme-dark #friends .friends-empty.section-blocked .empty-state-image {
+    background-image: url(http://discordemoji.com/assets/emoji/partyblob.png);
+}
+
+.chat .divider>span {
+    background-color: #fff;
+    border-radius: 8px;
+    color: #99aab5;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+    margin-left: 3057px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
