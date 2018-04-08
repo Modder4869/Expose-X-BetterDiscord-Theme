@@ -1,35 +1,64 @@
-//META{"name":"Expose","description":"Makes the entire background blends in with one color and gives a round taste to buttons.","author":"Corbs","version":"Beta_0.5.8"}*//{}
+//META{"name":"Expose","description":"Blends in entire background with a half transparent color and gives a round taste to most buttons.","author":"Corbs","version":"Beta_0.5.8"}*//{}
 
 
 :root {
     --version: "Expose X | Beta 0.5.8";
 }
 
-/* For Windows */
-.typeWindows-15E0Ys::before {
+
+
+.titleBar-3_fDwJ::before {
     content: var(--version);
     color: #ffffff;
     font-size: 10px;
     font-weight: 500;
     position: fixed;
-    top: 12px;
-    width: 100px;
-    right: -2px;
+    top: 17px;
+    left: 12px;
 }
 
-/* For Linux */
-.titleWrapper-3Vi_wz::before {
-    content: var(--version);
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 500;
-    position: fixed;
-    top: 19px;
-    right: 12px;
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3g68GS {
+    background-color: rgb(51, 54, 59);
+    height: 710px;
 }
 
 
+.emojiPicker-3g68GS .scroller-2dsok0 {
+    height: inherit;
+    overflow-x: hidden;
+    padding: 0 0 0 8px;
+}
 
+
+.theme-dark .cardPrimaryOutline-2YyAz2 {
+    border-color: rgba(32, 34, 37, 0);
+}
+
+.image-3Y4mXQ {
+    background-size: 100% 100%;
+    background-image: url(https://i.imgur.com/aTClmKL.gif);
+}
+
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://heathenish-pigeon-8722.dataplicity.io/Discord/FriendsIcon.png);
+    background-position: 7px!important;
+    background-repeat: no-repeat;
+    background-size: 36px;
+    height: 50px;
+    width: 50px;
+    position: absolute!important;
+    background-color: : transparent;
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    background: #8a8e94;
+    border-radius: 65px;
+    height: 10px;
+    margin-top: -6px;
+    left: 3px;
+    width: 10px;
+    top: 10px;
+}
 
 
 body {
@@ -49,98 +78,29 @@ body {
     background-color: transparent;
 }
 
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3g68GS .category-3rCtoh {
+    background-color: #33363b;
+}
+
+.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3g68GS .header-27dQ-e .search-bar {
+    background-color: #33363b;
+}
+
+
+
 
 .theme-dark .connectedAccount-3mKaTA, .theme-dark .userInfoSection-2WJxMm+.userInfoSection-2WJxMm {
     border-color: #2f3136;
 }
 
-.create-guild-container.deprecated .create-or-join .actions .or {
-    background-image: url(/assets/b9cf5548cc5a23a6943f194a0ace88f8.svg);
-    background-position: 50%,50%;
-    background-repeat: no-repeat;
-    background-size: 0px,0px;
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 500;
-    height: 100%;
-    left: 0;
-    line-height: 368px;
-    padding-top: 48px;
-    pointer-events: none;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 100%;
-}
 
-.create-guild-container.deprecated {
-    -webkit-box-sizing: border-box;
-    background-color: #fff;
-    border-radius: 0px;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 240px;
-    overflow: hidden;
-    position: relative;
-    width: 271px;
-}
 
-.avatar-uploader-inner {
-    -webkit-box-sizing: border-box;
-    -webkit-transition: -webkit-box-shadow .1s;
-    background-color: #7289da;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 128px 128px;
-    border: 0px solid #ebebeb;
-    border-radius: 50%;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 30px;
-    margin-bottom: -40px;
-    position: relative;
-    transition: -webkit-box-shadow .1s;
-    transition: box-shadow .1s;
-    width: 30px;
-}
-
-.avatar-uploader {
-    font-size: 0px;
-    text-align: center;
-}
-
-.avatar-uploader .size-info {
-    color: #87909c;
-    display: block;
-    font-size: 0px;
-}
-
-.create-guild-container.deprecated .create-guild .guild-form li:first-child {
-    -ms-flex: 1.2 0 0px;
-    -webkit-box-flex: 1.2;
-    flex: 1.2 0 0;
-    width: 0p;
-    height: 80px;
-}
 
 .theme-dark .elevationHigh-3XXATs {
     -webkit-box-shadow: 0 0px 0px 0 rgb(51, 54, 59);
     box-shadow: 0 0px 0px 0 rgb(51, 54, 59);
 }
 
-.ui-standard-sidebar-view .notice-region {
-    bottom: 0;
-    left: 0;
-    max-width: 740px;
-    padding: 0 20px 20px;
-    position: absolute;
-    right: 71px;
-    z-index: 2;
-    width: 270px;
-    margin-left: 13%;
-}
 
 .guilds-wrapper .guilds .guild .badge {
     bottom: -2px;
@@ -170,109 +130,13 @@ body {
     border-radius: 50px;
 }
 
-
-
-.create-guild-container.deprecated p {
-    color: #99aab5;
-    font-size: 0px;
-    font-weight: 500;
-    line-height: 1.2;
-    margin: 0;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.create-guild-container.deprecated .join-server h5 {
-    color: #43b581;
-    font-size: 0px;
-}
-
-.create-guild-container.deprecated .join-server .link-container label {
-    color: #99aab5;
-    font-weight: 400;
-    margin-top: 4px;
-    text-transform: none;
-    font-size: 0px;
-}
-
-.create-guild-container.deprecated .join-server .link-container {
-    -ms-flex-direction: column;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    margin-top: -30px;
-    width: 260px;
-    margin-right: -120px;
-    margin-left: -69px;
-}
-
-
-.create-guild-container.deprecated .join-server .link-container input {
-    -webkit-box-sizing: border-box;
-    border: 1px solid #99aab5;
-    border-radius: 40px;
-    box-sizing: border-box;
-    height: 44px;
-    margin-top: 20px;
-    padding: 0 10px;
-}
-
-.create-guild-container.deprecated .create-or-join header {
-    font-size: 18px;
-    margin-bottom: 40px;
-    margin-top: 6px;
-    padding: 0;
-    text-align: center;
-    width: 230px;
-}
-
-.create-guild-container.deprecated .create-or-join .actions {
-    -ms-flex-direction: row;
-    -ms-flex-pack: justify;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    -webkit-box-pack: justify;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.create-guild-container.deprecated .action+.action {
-    margin-left: 0px;
-}
-
-.create-guild-container.deprecated .action {
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.08);
-    -webkit-box-sizing: border-box;
-    background: hsla(0,0%,100%,.75);
-    border: 0px solid rgba(0,0,0,.1);
-    border-radius: 3px;
-    box-shadow: 0 0px 0px rgba(0,0,0,.08);
-    box-sizing: border-box;
-    cursor: pointer;
-    display: inline-block;
-    overflow: hidden;
-    padding: 6px;
-    text-align: center;
-    width: 228px;
-    height: 59px;
-}
-
-.create-guild-container.deprecated .join-server .instructions p {
-    margin-bottom: 4px;
-    margin-left: -16px;
-}
-
-.create-guild-container.deprecated .join-server .sample-link {
-    color: #7289da;
-    font-size: 0px;
-    margin-bottom: 3px;
-    padding: 0;
+.guilds-wrapper .guilds .guild.selected:before {
+    -webkit-transition: height .25s ease-in-out,margin-top .25s ease-in-out;
+    background: #fff;
+    border-radius: 20px;
+    height: 10px;
+    margin-top: -6px;
+    transition: height .25s ease-in-out,margin-top .25s ease-in-out;
 }
 
 
@@ -732,7 +596,55 @@ body {
     height: 52px;
     margin-bottom: 1px;
     padding: 0 10px;
+    width: 130px;
 }
+
+
+
+
+
+
+
+
+/* Moving Upload and Emoji button next to container iksrDT */
+
+.attachButton-Di6YUh {
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    cursor: pointer;
+    opacity: 1;
+    height: 24px;
+    margin: 10px 0 10px 10px;
+    transform-origin: 50% 50%;
+    transition: opacity  1s ease,-webkit-transform 1s ease;
+    transition: opacity  1s ease,transform 1s ease;
+    transition: opacity  1s ease,transform 1s ease,-webkit-transform .1s ease;
+    width: 19px;
+    position: fixed;
+    margin-left: -107px;
+}
+
+.theme-dark .attachButtonDivider-3tknGJ {
+    background-color: hsl(218, 7%, 23%);
+    margin-left: -9px;
+}
+
+.attachPopout-gjwHsr {
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    min-width: 200px;
+    padding: 8px;
+    margin-left: -145px;
+}
+
+/* I hoped that worked */
+
+
+
+
+
+
 
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
@@ -1195,7 +1107,7 @@ body {
       animation: guildborder 10s ease;
   }
   .guilds-wrapper .guilds .guild.selected {
-      border-radius: 3px!important; 	
+      border-radius: 3px!important;     
       animation: guildborder 10s ease;
   }
   
@@ -1266,6 +1178,30 @@ body {
 
 }
   
+
+
+.theme-dark .attachPopout-gjwHsr {
+    background-color: rgba(51, 54, 59, 0);
+}
+
+.attachPopoutRow-elxASe {
+    -webkit-transition: background-color .2s ease;
+    border-radius: 63px;
+    cursor: pointer;
+    padding: 8px;
+    transition: background-color .2s ease;
+    background-color: #2f3136;
+    margin-top: 9px;
+}
+
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: #535559;
+    color: hsla(0,0%,100%,.6);
+    border-radius: 50px;
+}
+
+
+
   
   .message-group .reactions .btn-reaction {
     opacity: 0.8 !important;
@@ -1370,7 +1306,7 @@ div.avatar-large {
 }
 
 .message-group {
-	border: none;
+    border: none;
     padding: 3px 0px;
 }
 
@@ -1500,7 +1436,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 }
 
 .status-3jUEha:after {
-	display: none;
+    display: none;
 }
 
 .bar-Y-RLyN {
@@ -1513,6 +1449,22 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
   .guilds-wrapper .scroller-wrap {
       width: 200px;
   }
+
+  .system-message .system-message-icon {
+      transform:translate(0,0)!important;
+  transform-origin: top left;
+  animation: user-popout-right 300ms cubic-bezier(.4,0,0,1)!important
+}
+body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:active){
+  transform:translate(-20px,0) scale(.95,1)!important;
+  opacity:0;
+  transition: 500ms cubic-bezier(.4,0,0,1)!important;
+}
+@keyframes user-popout-right {
+  0% {
+    transform:translate(-20px,0) scale(.95,1);
+  }
+}
   
 
 .guilds-wrapper .guilds {
@@ -1632,6 +1584,137 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 
 
 
+/* dots titlebar buttons */
+.titleBar-3_fDwJ {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 70px;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 8px;
+  right: 84px;
+  z-index: 3001;
+  -webkit-app-region: no-drag; }
+  .titleBar-3_fDwJ:not(:hover) .winButton-U7zAqI svg {
+    visibility: hidden; }
+  .titleBar-3_fDwJ .wordmark-2L03Wr {
+    display: none; }
+  .titleBar-3_fDwJ .winButton-U7zAqI {
+    opacity: 1;
+    cursor: default;
+    pointer-events: auto;
+    display: flex;
+    height: 12px;
+    width: 12px;
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    -webkit-app-region: no-drag;
+    margin-left: 20px;
+    margin-right: 0px;
+     }
+    .titleBar-3_fDwJ .winButton-U7zAqI svg {
+      background-size: 8px;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .titleBar-3_fDwJ .winButton-U7zAqI svg rect, .titleBar-3_fDwJ .winButton-U7zAqI svg polygon {
+        display: none; }
+  .titleBar-3_fDwJ div:nth-of-type(2) {
+    background-color: #fff;
+    order: 1; }
+    .titleBar-3_fDwJ div:nth-of-type(2) svg {
+      background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254282518539/btn-close.svg")
+      margin-left 50px; }
+    .titleBar-3_fDwJ div:nth-of-type(2):active {
+      background-color: #fff; }
+  .titleBar-3_fDwJ div:nth-of-type(3) {
+    background-color: #fff;
+    order: 3; }
+    .titleBar-3_fDwJ div:nth-of-type(3) svg {
+      background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254508879872/btn-maximize.svg")
+      margin-left: 50px; }
+    .titleBar-3_fDwJ div:nth-of-type(3):active {
+      background-color: #fff; }
+  .titleBar-3_fDwJ div:nth-of-type(4) {
+    background-color: #fff;
+    order: 2; }
+    .titleBar-3_fDwJ div:nth-of-type(4) svg {
+      background-image: url("https://cdn.discordapp.com/attachments/406779219868123146/406779254316204035/btn-minimize.svg")
+      margin-left: 50px; }
+    .titleBar-3_fDwJ div:nth-of-type(4):active {
+      background-color: #fff; }
+
+#app-mount .guilds-wrapper {
+  margin-top: 32px; }
+#app-mount .headerBar-cxbhPD, #app-mount .title-qAcLxz, #app-mount .titleCall-3X0yGQ, #app-mount .notice {
+  -webkit-app-region: drag; }
+  #app-mount .headerBar-cxbhPD:before, #app-mount .title-qAcLxz:before, #app-mount .titleCall-3X0yGQ:before, #app-mount .notice:before {
+    content: ' ';
+    display: block;
+    height: 4px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3005;
+    -webkit-app-region: no-drag; }
+#app-mount .container-2oOGIt {
+  padding-top: 0;
+  top: 0; }
+#app-mount .container-2oOGIt:before, #app-mount .backdrop-2ohBEd:before, #app-mount .layer .ui-standard-sidebar-view:before {
+  content: '';
+  display: block;
+  height: calc(32px - 4px);
+  width: calc(100vw - 70px);
+  position: absolute;
+  top: 4px;
+  right: 0;
+  z-index: 3005;
+  -webkit-app-region: drag; }
+#app-mount .title-qAcLxz .titleText-2IfpkV {
+  -webkit-app-region: no-drag; }
+#app-mount .title-qAcLxz .topic-1KFf6J.expandable-1er6r1 {
+  -webkit-app-region: no-drag; }
+
+
+  .winButtonClose-2rIvsa {
+    right: -95px;
+}
+
+/* end of dots titlebar buttons */
+
+
+
+/* Create or Join guild */
+
+.create-guild-container.deprecated .create-or-join .actions .or {
+    height: 200%;
+}
+
+.create-guild-container.deprecated .action {
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0,0,0,.0);
+    display: block;
+    overflow: hidden;
+    width: 228px;
+    height: 70px;
+    margin-left: 113px;
+    margin-top: 29px;
+}
+
+.create-guild-container.deprecated .create-or-join .actions {
+    flex-direction: column;
+}
+
+.create-guild-container.deprecated .action+.action {
+    margin-left: 118px;
+    margin-top: 70px;
+}
 
 
 
@@ -1639,8 +1722,35 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 
 
 
+.create-guild-container.deprecated .create-guild .guild-form li:first-child {
+    -ms-flex: 1.2 0 0px;
+    -webkit-box-flex: 1.2;
+    flex: 1.2 0 0;
+    margin-left: 182px;
+}
+
+.create-guild-container.deprecated .create-guild .guild-form li {
+    -ms-flex: 1 1 0px;
+    -webkit-box-flex: 1;
+    flex: 1 1 0;
+    margin-left: -1300px;
+}
+
+.regionSelect-1lpijo .regionSelectInner-1cIYbU {
+    border: 1px solid rgba(205, 205, 205, 0);
+}
 
 
+
+
+.create-guild-container.deprecated .join-server .sample-link {
+    font-size: 0px;
+}
+
+.create-guild-container.deprecated p {
+    font-size: 0px;
+}
+/* end of create or join guild */
 
 
 
