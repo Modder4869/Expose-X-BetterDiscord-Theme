@@ -5,7 +5,7 @@
     --version: "Expose X | Beta 0.5";
 }
 
-
+/* For Windows */
 .typeWindows-15E0Ys::before {
     content: var(--version);
     color: #ffffff;
@@ -16,6 +16,18 @@
     width: 100px;
     right: -2px;
 }
+
+/* For Linux */
+.titleWrapper-3Vi_wz::before {
+    content: var(--version);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    position: fixed;
+    top: 19px;
+    right: 12px;
+}
+
 
 
 
@@ -1615,7 +1627,6 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     z-index: 2;
     margin-left: 3057px;
 }
-
 
 
 
