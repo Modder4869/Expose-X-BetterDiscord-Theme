@@ -1,8 +1,8 @@
-//META{"name":"Expose","description":"Cleaner than you think?","author":"Corbs","version":"Beta_0.5"}*//{}
+//META{"name":"Expose","description":"Makes the entire background blends in with one color and gives a round taste to buttons.","author":"Corbs","version":"Beta_0.5.8"}*//{}
 
 
 :root {
-    --version: "Expose X | Beta 0.5";
+    --version: "Expose X | Beta 0.5.8";
 }
 
 /* For Windows */
