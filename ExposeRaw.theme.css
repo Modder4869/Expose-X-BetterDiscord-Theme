@@ -2,7 +2,7 @@
 
 
 :root {
-    --version: "Expose X | Beta 0.5.9";
+    --version: "Expose X | Beta 0.6";
 }
 
 
@@ -10,6 +10,8 @@
     border: 1px solid rgba(28, 36, 43, 0);
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0);
 }
+
+
 
 .theme-dark .footer-1PYmcw {
     -webkit-box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0);
@@ -301,7 +303,14 @@ body {
     text-transform: uppercase;
 }
 
-
+.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .description-2rzUJU .filename-1XsE3E {
+    font-size: 0px;
+    font-weight: 500;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
 .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .description-2rzUJU {
     -webkit-box-sizing: border-box;
@@ -313,6 +322,12 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-top: 300px;
+}
+
+.uploadModal-2KN6Mm .inner-1-09ZV .channelTextAreaUpload-10Oncb {
+    margin-bottom: -63px;
+    margin-top: 214px;
+    width: 411px;
 }
 
 .uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV .icon-19bbE_.one-3Z3WUg {
@@ -1683,6 +1698,29 @@ div.avatar-large {
 
 /* */
 
+
+/* Small Members Tab */
+.theme-dark .members-1bid1J {
+    transform: translateX(184px);
+    transition: transform .2s cubic-bezier(0.28, 1.58, 0.58, 1);
+}
+
+.scroller-fzNley.members-1bid1J:hover {
+    background-color: #33363B;
+    transform: translateX(10px);
+    transition: transform .2s cubic-bezier(0.28, 1.58, 0.58, 1);
+}
+
+.flex-horizontal>.flex-spacer {
+    min-width: 1px;
+    background-color: transparent;
+    margin-left: 0px;
+    margin-right: -180px;
+}
+
+/* end of Small Members Tab */
+
+
 .popout.popout-left.no-arrow[style*="visibility: visible;"]{
   transform:translate(-100%,0)!important;
   transform-origin: top right;
@@ -2041,5 +2079,4 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     font-size: 0px;
 }
 /* end of create or join guild */
-
 
