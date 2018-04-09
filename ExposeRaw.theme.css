@@ -603,42 +603,45 @@ body {
 
 
 
-
-
-
-/* Moving Upload and Emoji button next to container iksrDT */
-
-.attachButton-Di6YUh {
-    -webkit-transform-origin: 50% 50%;
-    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+.button-3WJ5FX {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background: transparent no-repeat 50% 50%;
+    background-size: 18px 18px;
+    border: none;
+    border-radius: 3px;
     cursor: pointer;
-    opacity: 1;
-    height: 24px;
-    margin: 10px 0 10px 10px;
-    transform-origin: 50% 50%;
-    transition: opacity  1s ease,-webkit-transform 1s ease;
-    transition: opacity  1s ease,transform 1s ease;
-    transition: opacity  1s ease,transform 1s ease,-webkit-transform .1s ease;
-    width: 19px;
-    position: fixed;
-    margin-left: -107px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    opacity: .6;
+    padding: 0;
+    position: relative;
+    width: 32px;
+    bottom: -52px;
+    left: -20px;
 }
 
-.theme-dark .attachButtonDivider-3tknGJ {
-    background-color: hsl(218, 7%, 23%);
-    margin-left: -9px;
+.inner-ptMwR- .channel-3YGMy1 {
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    margin-right: 30px;
+    margin-top: 4px;
+    opacity: .4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 18px;
 }
 
-.attachPopout-gjwHsr {
-    border-radius: 5px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    min-width: 200px;
-    padding: 8px;
-    margin-left: -145px;
-}
 
-/* I hoped that worked */
 
 
 
@@ -1398,10 +1401,106 @@ div.avatar-large {
     width: 76%;
 }
 
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: hsla(0,0%,100%,.04);
+    margin-top: 30px;
+}
+
 .theme-dark .message-group .comment .markup {
     color: hsla(0,0%,100%,.7);
     margin-top: 12px;
 }
+
+.membersWrap-3wRngy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 240px;
+    position: relative;
+    margin-top: 30px;
+}
+
+/* RECONNECTING */
+.container-2oOGIt {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-transform: translateZ(0);
+    align-items: center;
+    background-color: rgba(47, 49, 54, 0.82);
+    bottom: 0;
+    contain: layout;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: run-in;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-rendering: optimizeLegibility;
+    top: 0;
+    transform: translateZ(0);
+    z-index: 3000;
+}
+
+.container-2oOGIt img, .container-2oOGIt video {
+    height: 400px;
+    width: 400px;
+}
+
+.quote-3NlLs0 {
+    color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 130px;
+}
+
+.contentBase-2lvI5t {
+    color: rgba(114, 118, 125, 0);
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    max-width: 600px;
+    text-transform: uppercase;
+}
+
+.attribution-3t1Ekl a {
+    color: hsla(0, 0%, 100%, 0);
+    text-decoration: none;
+}
+
+.problems-2jwWfL {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-transform: translate3d(0,100%,0);
+    -webkit-transition: -webkit-transform .2s cubic-bezier(0.19, 0.53, 0.04, 2.01);
+    align-items: center;
+    bottom: 0;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding-bottom: 32px;
+    position: absolute;
+    right: 0;
+    transform: translate3d(0,100%,0);
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s cubic-bezier(0.28, 1.58, 0.58, 1);
+}
+
+
+
+/* */
 
 .popout.popout-left.no-arrow[style*="visibility: visible;"]{
   transform:translate(-100%,0)!important;
@@ -1530,6 +1629,16 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 .content-2mSKOj:hover {
     transform: scale(1);
     transition: all 0.1s cubic-bezier(0.29, 0.29, 0.26, 0.3) !important;
+}
+
+.titleWrapper-3Vi_wz {
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 100;
+    background-color: rgba(51, 54, 59, 0.45);
+    margin-bottom: -47px;
 }
 
 .container-1WaXoH {
