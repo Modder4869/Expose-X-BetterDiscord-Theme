@@ -5,10 +5,13 @@
 
 
 :root {
-    --version: "Expose X v0.6.1";
+    --version: "Expose X v0.6.2";
     /*--accent-color: #7289DA; - default */
     --accent-color: #359eff;
 }
+
+/* Version Number */
+
 
 .avatar-large[style*="avatars/273169968202252289"]+.comment .markup u em strong{
     visibility: hidden;
@@ -32,7 +35,7 @@
 
 
 
-
+/* */
 
 
 
@@ -109,6 +112,15 @@
     padding: 0 0 0 8px;
 }
 
+.theme-dark .emojiButtonNormal-2yO7yT {
+    opacity: .6;
+    z-index: 9001;
+}
+
+.emojiButton-38mF6T:hover {
+    z-index: 9001px;
+}
+
 
 .theme-dark .cardPrimaryOutline-2YyAz2 {
     border-color: rgba(32, 34, 37, 0);
@@ -140,6 +152,10 @@
     top: 10px;
 }
 
+.theme-dark .noChannel-2EQ0a9 {
+    background: rgba(255, 255, 255, 0);
+}
+
 
 body {
     -moz-user-select: none;
@@ -156,6 +172,7 @@ body {
 
 .theme-dark .inner-3if5cm {
     background-color: transparent;
+    z-index: 100;
 }
 
 .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3g68GS .category-3rCtoh {
@@ -166,6 +183,65 @@ body {
     background-color: #33363b;
 }
 
+
+
+.theme-dark .base-2KDOo9 {
+    border-color: hsla(0,0%,100%,.02);
+    height: 0px;
+}
+
+.welcomeMessage-1U7Ntv {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 0px;
+}
+
+.app .welcomeMessage-1U7Ntv h1 {
+    color: #7289da;
+    font-size: 0px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.exclamation-yQYZAc {
+    background: url(/assets/7616be62f9b90270b5a2e1fe9d2ece4f.svg) 50% no-repeat;
+    height: 0px;
+}
+
+.share-8x5Ppc {
+    background: url(/assets/07778297eb1e1e3d9bd3cd302920d5fb.svg) 50% no-repeat;
+    height: 0px;
+}
+
+.mobile-3o7N-v {
+    background: url(/assets/83d501f2b7dd2987302ce29b321f4494.svg) 50% no-repeat;
+    height: 0px;
+}
+
+.twitter-3sMg1m {
+    background: url(/assets/326d79eb53886c88437e99a3754b1cd0.svg) 50% no-repeat;
+    height: 0px;
+}
+
+.welcomeMessage-1U7Ntv p {
+    color: #87909c;
+    font-size: 0px;
+    line-height: 150%;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    margin-top: 9px;
+    width: 334px;
+}
 
 
 
@@ -363,8 +439,8 @@ body {
 
 .uploadModal-2KN6Mm .inner-1-09ZV .channelTextAreaUpload-10Oncb {
     margin-bottom: -63px;
-    margin-top: 214px;
-    width: 411px;
+    margin-top: -1586px;
+    width: 0px;
 }
 
 .uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV .icon-19bbE_.one-3Z3WUg {
@@ -873,9 +949,9 @@ body {
     position: absolute;
     right: 20px;
     text-transform: capitalize;
-    top: 60px;
+    top: 8px;
     transition: background-color .2s;
-    z-index: 2;
+    z-index: 3302;
 }
 
 .container-iksrDt {
@@ -915,6 +991,7 @@ body {
 
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
+    z-index: 100;
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
@@ -1529,12 +1606,22 @@ div.avatar-large {
 }
 
  .message-group .avatar-large:hover {
-   transform: scale(1.1);
+   transform: scale(1.1) translateX(3px);
 }
 .message-group .avatar-large:active {
     transform: scale(0.9);
     transition: all 0.2s ease !important;
 }
+
+.message-group .edit-message.edit-first-message {
+    margin-top: -6px;
+    margin: -10px;
+}
+
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: hsl(0, 0%, 0%);
+    margin-top: 30px;
+    margin-left: 0px;
 
 
 .image {
@@ -1753,10 +1840,17 @@ div.avatar-large {
     background-color: transparent;
     margin-left: 0px;
     margin-right: -232px;
+    height: 94%;
+    margin-top: 48px;
 }
 
 /* end of Small Members Tab */
 
+
+.popout.popout-top-right.no-arrow, .popout.popout-top.no-arrow {
+    margin-bottom: 10px;
+    transition: transform .1s ease-out;
+}
 
 .popout.popout-left.no-arrow[style*="visibility: visible;"]{
   transform:translate(-100%,0)!important;
@@ -1893,7 +1987,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     flex: 0 0 auto;
     position: relative;
     z-index: 100;
-    background-color: rgba(51, 54, 59, 0.45);
+    background-color: transparent;
     margin-bottom: -47px;
 }
 
