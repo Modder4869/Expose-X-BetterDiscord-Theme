@@ -1,9 +1,46 @@
 //META{"name":"Expose","description":"Blends in entire background with a half transparent color and gives a round taste to most buttons.","author":"Corbs","version":"Beta"}*//{}
 
 
+
+
+
 :root {
-    --version: "Expose X | Beta 0.6";
+    --version: "Expose X v0.6.1";
+    /*--accent-color: #7289DA; - default */
+    --accent-color: #359eff;
 }
+
+.avatar-large[style*="avatars/273169968202252289"]+.comment .markup u em strong{
+    visibility: hidden;
+    margin-left:-5px;
+}
+.avatar-large[style*="avatars/273169968202252289"]+.comment .markup u{
+    text-decoration:none!important;
+}
+.avatar-large[style*="avatars/273169968202252289"]+.comment .markup u em strong::after{
+    visibility: visible;
+    content: var(--version);
+    width: 30px!important;
+    background: var(--accent-color);
+    color: white;
+    font-weight: 600;
+    font-style: initial!important;
+    text-decoration: none!important;
+    padding: 0px 10px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .bd-modal-wrapper .bd-modal-inner {
@@ -1701,21 +1738,21 @@ div.avatar-large {
 
 /* Small Members Tab */
 .theme-dark .members-1bid1J {
-    transform: translateX(184px);
-    transition: transform .2s cubic-bezier(0.28, 1.58, 0.58, 1);
+    transform: translateX(234px);
+    transition: transform .1s ease-out;
 }
 
 .scroller-fzNley.members-1bid1J:hover {
     background-color: #33363B;
     transform: translateX(10px);
-    transition: transform .2s cubic-bezier(0.28, 1.58, 0.58, 1);
+    transition: transform .1s ease-out;
 }
 
 .flex-horizontal>.flex-spacer {
     min-width: 1px;
     background-color: transparent;
     margin-left: 0px;
-    margin-right: -180px;
+    margin-right: -232px;
 }
 
 /* end of Small Members Tab */
@@ -2105,8 +2142,8 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 .menu-3BZuDT.alt-2vq4VR .item-rK1j5B {
 	position: relative;
 	display: inline-block;
-	width: 60px;
-	height: 68px;
+	width: 50px;
+	height: 48px;
 	vertical-align: top;
 	background: transparent;
 	overflow: hidden;
