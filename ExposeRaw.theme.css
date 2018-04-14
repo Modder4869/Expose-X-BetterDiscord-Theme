@@ -114,6 +114,44 @@
 
 /* Better Reddux Plugin */
 
+.bf-toolbar:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: calc(100% - 15px);
+    position: absolute;
+    z-index: -1;
+    background: #7289da !important;
+    pointer-events: initial;
+    left: 0px;
+    top: 5px;
+    border-radius: 3px;
+    transform: translate(0,55px);
+    transition: all 200ms ease;
+    border-radius: 50px !important;
+}
+
+.bf-toolbar {
+    user-select: none;
+    white-space: nowrap;
+    font-size: 85%;
+    display: block;
+    position: absolute;
+    color: rgba(255, 255, 255, .5) !important;
+    width: auto!important;
+    right: 0;
+    bottom: auto;
+    border-radius: 3px;
+    height: 27px!important;
+    top: 0px;
+    transform: translate(0,-100%);
+    opacity: 1;
+    overflow: hidden!important;
+    pointer-events: none;
+    padding: 10px 30px 15px 5px;
+    margin: 8px 49px 0px 0px !important;
+}
+
 .bf-toolbar .bf-arrow {
     content: "";
     display: block;
@@ -133,10 +171,12 @@
 }
 
 .bf-toolbar.bf-visible .bf-arrow, .bf-toolbar.bf-hover:hover .bf-arrow {
-    transform: translate(0,5px)rotate(-90deg);
+    transform: translate(0, 7px)rotate(-90deg) !important;
     transition: all 200ms cubic-bezier(0,0,0,1);
     opacity: .9;
 }
+
+
 
 .theme-dark .popout .messages-popout-wrap {
     -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,20%);
@@ -185,16 +225,110 @@
 
 /* */
 
+
+/* Switch */
+   /* Discord Settings */
+.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after {
+    -webkit-transform: translate3d(18px,0,0);
+    transform: translate3d(0px,0,0);
+    opacity: 0;
+}
+
+.sizeDefault-rZbSBU {
+    border-radius: 14px;
+    height: 24px;
+    width: 24px;
+    
+}
+
+.valueUnchecked-XR6AOk:after {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0) scale(0.5);
+}
+   
+.value-kmHGfs:after {
+    -webkit-transition: width .0s ease-in-out,left .0s ease-in-out,-webkit-transform .15s ease-in-out;
+    left: 0;
+    transition: width .0s ease-in-out,left .0s ease-in-out,-webkit-transform .0s ease-in-out;
+    transition: transform .0s ease-in-out,width .0s ease-in-out,left .0s ease-in-out;
+}
+
+.size-yI1KRe:after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+   /* Better Disord Settings */
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked:before {
+    transform: translateX(0px);
+    opacity: 0;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: block;
+    flex: 0 0 auto;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    background: #f6f6f7;
+    border-radius: 10px;
+    transition: all .15s ease;
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,.05), 0 2px 2px 0 rgba(0,0,0,.1), 0 3px 3px 0 rgba(0,0,0,.05);
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+
+
+/* */
+
+.bda-slist .bda-footer button:disabled {
+    opacity: .0;
+}
+
 /* Server Folder Plugin */
 
 .DevilBro-modal [class^="ui-color-picker-swatch"].large {
     min-width: 62px;
     height: 62px;
-    border-radius: 45px;
+    border-radius: 45px !important;
+}
+
+.guild.folder .badge.folder.count {
+    background: grey !important;
+    height: 12px !important;
+    top: 34px !important;
+    right: 18px !important;
+}
+
+.guild.serverFoldersPreview {
+    position: absolute;
+    opacity: -0.5 !important;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
 }
 
 .foldercontainer {
-    margin: 0px 0px 0px -30px;
+    margin: 0px 0px 0px -30px !important;
 }
 
 .DevilBro-modal [class^="ui-color-picker-swatch"] {
@@ -209,8 +343,8 @@
 }
 
 .theme-dark .input-2YozMi:hover {
-    border-color: #040405;
-    border-radius: 50px;
+    border-color: #040405 !important;
+    border-radius: 50px !important;
 }
 
 .theme-dark .input-2YozMi {
@@ -221,7 +355,7 @@
     background-color: rgba(0,0,0,.1);
     border-color: rgba(0,0,0,.3);
     color: #f6f6f7;
-    border-radius: 50px;
+    border-radius: 50px !important;
 }
 
 
@@ -1289,9 +1423,8 @@ body {
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     background-color: transparent;
-    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    box-shadow: 0 -1px 0 hsla(0, 0%, 100%, 0);
 }
-
 .theme-dark .chat {
     background-color: rgba(41, 53, 72, 0);
 }
@@ -1604,8 +1737,9 @@ body {
 }
 
 
-
-
+.theme-dark .typing-3eiiL_ {
+    background-color: rgba(54, 57, 62, 0);
+}
 
 
 .typing-3eiiL_ {
@@ -1616,17 +1750,17 @@ body {
     display: flex;
     font-size: 13px;
     font-weight: 400;
-    height: 26px;
-    left: 65%;
+    height: 17px;
+    left: 95%;
     line-height: 24px;
     overflow-y: hidden;
     position: absolute;
     resize: none;
-    width: 30%;
+    width: 27px;
     margin-left: 0px;
     margin-bottom: 47px;
+    overflow: hidden;
 }
-
 
 
 
