@@ -2243,20 +2243,22 @@ div.avatar-large {
 /* Small Members Tab */
 .theme-dark .members-1bid1J {
     transform: translateX(0px);
-    transition: opacity .2s ease;
+    transition: all 200ms ease;
+
 }
 
 .scroller-fzNley.members-1bid1J:hover {
     background-color: #33363B;
-    transform: translateX(-232px);
-    transition: opacity .2s ease;
+    transform: translateX(-200px);
+    transition: all 200ms ease;
     z-index: 20;
 }
 
 .theme-dark .members-1bid1J:hover {
     background-color: rgba(47, 49, 54, 0);
     margin-left: 219px;
-}
+    transition: all 200ms ease;
+    }
 
 /* end of Small Members Tab */
 
