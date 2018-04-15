@@ -2,7 +2,7 @@
 
 
 :root {
-    --version: "Expose X v0.6.5";
+    --version: "Expose X v0.7";
     --greybackground: #33363B !important;
   --i-tbr-btninvert: 0%;
   --i-tbr-closeimg: url("https://cdn.discordapp.com/attachments/433250325407727616/434017806820835329/Design_8.png");
@@ -478,6 +478,18 @@
 .image-3Y4mXQ {
     background-size: 100% 100%;
     background-image: url(https://i.imgur.com/aTClmKL.gif);
+}
+
+.theme-dark .container-2YgzWd {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .input-2YozMi {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    color: #f6f6f7;
+    border-radius: 50px !important;
 }
 
 .guilds-wrapper .guilds .friends-icon {
@@ -1397,7 +1409,107 @@ body {
     border-radius: 50px;
 }
 
+/* Profiles */
 
+.root-2sNHUF {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 350px;
+}
+
+.lookInverted-2lPGe7.colorBrand-3PmwCE {
+    background-color: #fff;
+    color: #7289da;
+    margin-top: 113px;
+}
+
+.theme-dark .topSectionNormal-2LlRG1 {
+    background-image: url(https://cdn.discordapp.com/attachments/433250325407727616/434911253320695818/PP.png);
+    background-position-y: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topSectionSpotify-3744IX {
+    background: rgba(29, 185, 84, 0);
+    background-position-y: -25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdn.discordapp.com/attachments/433250325407727616/434911253320695818/PP.png);
+}
+
+.lookInverted-2lPGe7.colorGreen-22At8E {
+    background-color: #fff;
+    color: #43b581;
+    margin-top: 110px;
+}
+
+.headerFill-TTyrtz {
+    background-color: rgb(32, 34, 37);
+    display: -webkit-box;
+}
+
+.actionsProfile-lxtW95, .listeningActionsProfile-1wyCkA {
+    margin-left: -90px;
+    margin-top: -36px;
+}
+
+
+
+.headerInfo-Gkqcz9 {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+    position: fixed;
+}
+
+.avatar-4g_GO6 {
+    margin-right: 70px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.lookFilled-luDKDo.colorGreen-22At8E {
+    background-color: #43b581;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 94px;
+}
+
+.additionalActionsIcon-WiVlux {
+    background: url(/assets/c75b049cb25ec007efd22d608a0c9c0a.svg) no-repeat 50%;
+    cursor: pointer;
+    height: 24px;
+    margin-left: 8px;
+    width: 24px;
+    margin-top: 93px;
+}
+
+.headerInfo-Gkqcz9 {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+    position: fixed;
+    margin-left: 96px;
+    margin-top: 25px;
+}
+
+.additionalActionsIcon-WiVlux {
+    background: url(/assets/c75b049cb25ec007efd22d608a0c9c0a.svg) no-repeat 50%;
+    cursor: pointer;
+    height: 24px;
+    margin-left: 8px;
+    width: 24px;
+    margin-top: 93px;
+    z-index: 1000;
+}
+
+.theme-dark .topSectionNormal-2LlRG1 {
+    background-color: transparent;
+}
+
+/* */
 
 .theme-dark .item-3H-QZD {
     border-color: rgba(24, 25, 28, 0);
@@ -1414,8 +1526,31 @@ body {
 }
 
 .lookOutlined-1c5nhl.colorWhite-1IbOTe:hover {
-    border-color: hsla(0,0%,100%,.6);
+    border-color: transparent;
     border-radius: 50px;
+}
+
+.colorPickerSwatch-2aTUJ5 {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-sizing: border-box;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 103px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 0;
+    position: relative;
+    width: 20px;
 }
 
 
