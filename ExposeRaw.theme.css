@@ -11,7 +11,21 @@
 }
 
 
+/* Fixed MacOS Titlebar Buttons */
 
+.titleBar-3_fDwJ {
+    height: 35px;
+    width: calc(21px * 3);
+    margin: 0;
+    padding: 9px 8px;
+    position: absolute;
+    top: 21px;
+    right: 0;
+    -webkit-app-region: no-drag;
+    left: 19px;
+}
+
+/* */
 
 /* Old Titlebar */
 
