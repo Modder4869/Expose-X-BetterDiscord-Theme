@@ -5,6 +5,6 @@
 
 Expose X blends the entire background in with a round taste.
 
-Currently in beta at https://discord.gg/BHmTYkD
+Currently in beta at https://discord.gg/KXMSM2G
 
 
