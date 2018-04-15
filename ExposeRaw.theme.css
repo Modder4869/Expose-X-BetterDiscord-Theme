@@ -19,10 +19,10 @@
     margin: 0;
     padding: 9px 8px;
     position: absolute;
-    top: 21px;
+    top: 21px !important;
     right: 0;
     -webkit-app-region: no-drag;
-    left: 19px;
+    left: 19px !important;
 }
 
 /* */
