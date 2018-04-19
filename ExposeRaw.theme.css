@@ -342,7 +342,7 @@
     margin-bottom: 5px;
     margin-top: 5px;
     border: 4px solid transparent;
-    border-radius: 12px;
+    border-radius: 50px !important;
     margin-left: 10px;
 }
 
@@ -382,7 +382,7 @@
 
 .bd-blue .bd-modal-wrapper .footer button {
     background-color: #3a71c1;
-    border-radius: 50px;
+    border-radius: 50px !important;
 }
 
 .bd-modal-wrapper .header {
