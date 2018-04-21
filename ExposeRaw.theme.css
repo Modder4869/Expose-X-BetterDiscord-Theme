@@ -2420,6 +2420,11 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     background-position: 50%!important;
 }
 
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    color: rgba(240,71,71,.8);
+    background-color: #3b404c;
+}
+
 
 
 #bd-settings-sidebar .ui-tab-bar-item:hover {
