@@ -1,5 +1,6 @@
 //META{"name":"Expose","description":"Blends in entire background with a half transparent color and gives a round taste to most buttons.","author":"Corbs","version":"Beta"}*//{}
 
+
 :root {
     --version: "Expose X v0.7";
     --greybackground: #33363B !important;
@@ -8,6 +9,13 @@
   --i-tbr-maximizeimg: url("https://cdn.discordapp.com/attachments/433250325407727616/434017810751029248/Design_6.png");
   --i-tbr-minimizeimg: url("https://cdn.discordapp.com/attachments/433250325407727616/434017808934764555/Design_7.png"); 
 }
+
+
+/* Fixed MacOS Titlebar Buttons */
+
+/* NOT FIXED YET */
+
+/* */
 
 /* Old Titlebar */
 
@@ -334,7 +342,7 @@
     margin-bottom: 5px;
     margin-top: 5px;
     border: 4px solid transparent;
-    border-radius: 50px !important;
+    border-radius: 12px;
     margin-left: 10px;
 }
 
@@ -374,7 +382,7 @@
 
 .bd-blue .bd-modal-wrapper .footer button {
     background-color: #3a71c1;
-    border-radius: 50px !important;
+    border-radius: 50px;
 }
 
 .bd-modal-wrapper .header {
@@ -1405,107 +1413,6 @@ body {
     border-radius: 50px;
 }
 
-/* Profiles */
-
-.root-2sNHUF {
-    border-radius: 8px;
-    overflow: hidden;
-    position: relative;
-    width: 350px;
-}
-
-.lookInverted-2lPGe7.colorBrand-3PmwCE {
-    background-color: #fff;
-    color: #7289da;
-    margin-top: 113px;
-}
-
-.theme-dark .topSectionNormal-2LlRG1 {
-    background-image: url(https://cdn.discordapp.com/attachments/433250325407727616/434911253320695818/PP.png);
-    background-position-y: 24px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.topSectionSpotify-3744IX {
-    background: rgba(29, 185, 84, 0);
-    background-position-y: -25px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://cdn.discordapp.com/attachments/433250325407727616/434911253320695818/PP.png);
-}
-
-.lookInverted-2lPGe7.colorGreen-22At8E {
-    background-color: #fff;
-    color: #43b581;
-    margin-top: 110px;
-}
-
-.headerFill-TTyrtz {
-    background-color: rgb(32, 34, 37);
-    display: -webkit-box;
-}
-
-.actionsProfile-lxtW95, .listeningActionsProfile-1wyCkA {
-    margin-left: -90px;
-    margin-top: -36px;
-}
-
-
-
-.headerInfo-Gkqcz9 {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
-    position: fixed;
-}
-
-.avatar-4g_GO6 {
-    margin-right: 70px;
-    margin-left: 0px;
-    margin-top: 40px;
-}
-
-.lookFilled-luDKDo.colorGreen-22At8E {
-    background-color: #43b581;
-    color: #fff;
-    border-radius: 50px;
-    margin-top: 94px;
-}
-
-.additionalActionsIcon-WiVlux {
-    background: url(/assets/c75b049cb25ec007efd22d608a0c9c0a.svg) no-repeat 50%;
-    cursor: pointer;
-    height: 24px;
-    margin-left: 8px;
-    width: 24px;
-    margin-top: 93px;
-}
-
-.headerInfo-Gkqcz9 {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
-    position: fixed;
-    margin-left: 96px;
-    margin-top: 25px;
-}
-
-.additionalActionsIcon-WiVlux {
-    background: url(/assets/c75b049cb25ec007efd22d608a0c9c0a.svg) no-repeat 50%;
-    cursor: pointer;
-    height: 24px;
-    margin-left: 8px;
-    width: 24px;
-    margin-top: 93px;
-    z-index: 1000;
-}
-
-.theme-dark .topSectionNormal-2LlRG1 {
-    background-color: transparent;
-}
-
-/* */
 
 .theme-dark .item-3H-QZD {
     border-color: rgba(24, 25, 28, 0);
@@ -2850,4 +2757,24 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 
 .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
     background-color: rgba(54, 57, 62, 0);
+}
+
+.theme-dark .menu-3BZuDT {
+    -webkit-box-shadow: 0 0 0px rgba(0,0,0,.0), 0 0px 0px rgba(0,0,0,.0);
+    background: transparent;
+    box-shadow: 0 0 0px rgba(0,0,0,.0), 0 0px 0px rgba(0,0,0,.0);
+}
+
+.theme-dark .item-rK1j5B {
+    color: hsl(0, 0%, 0%);
+}
+
+.popout-2RRwAO {
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1);
+    -webkit-filter: blur(0);
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0), 0 1px 4px rgba(0,0,0,.1);
+    contain: layout;
+    padding: 0;
+    z-index: 1000;
 }
