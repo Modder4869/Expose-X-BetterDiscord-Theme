@@ -1,0 +1,22 @@
+//META{"name":"Expose","description":"Blends in the background and adds a round taste.","author":"Corbs","version":"Beta for Mac"}*//{}
+
+
+@import url(https://raw.githubusercontent.com/CorbsEditor/Expose-X-BetterDiscord-Theme-beta-/master/ExposeX%20MacRaw.theme.css);
+
+
+.appMount-14L89u {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-image: url(PutSexyImageURL Here);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
