@@ -2,7 +2,7 @@
 
 
 :root {
-    --version: "Expose X v0.7";
+    --version: "Expose X v0.7 for Mac";
     --os: "for Mac";
     --greybackground: #33363B !important;
   --i-tbr-btninvert: 0%;
@@ -16,14 +16,14 @@
 
 .titleBar-3_fDwJ {
     height: 30px;
-    width: calc(22px * 3);
+    width: calc(22px * 3) !important;
     margin: 0;
     padding: 9px 8px;
     position: absolute;
-    top: 21px;
-    right: 0;
+    top: 21px !important;
+    right: 0 !important;
     -webkit-app-region: no-drag;
-    left: 15px;
+    left: 15px !important;
 }
 
 .titleWrapper-3Vi_wz {
@@ -33,7 +33,7 @@
     position: relative;
     z-index: 100;
     background-color: transparent;
-    width: 100%;
+    width: 100% !important;
 }
 
 /* Old Titlebar */
@@ -472,26 +472,15 @@
 .titleBar-3_fDwJ::before {
     content: var(--version);
     color: #ffffff;
-    font-size: 10px;
+    font-size: 19px !important;
     font-weight: 500;
     position: fixed;
     -webkit-app-region: drag;
-    left: 18px;
-    top: 6px;
+    left: 18px !important;
+    top: 6px !important;
     width: 90px;
 }
 
-.titleBar-3_fDwJ::before {
-    content: var(--os);
-    color: #ffffff;
-    font-size: 10px;
-    font-weight: 500;
-    position: fixed;
-    -webkit-app-region: drag;
-    left: 18px;
-    top: 12px;
-    width: 90px;
-}
 
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3g68GS {
     background-color: rgb(51, 54, 59);
