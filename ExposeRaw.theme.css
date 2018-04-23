@@ -1,120 +1,9 @@
 //META{"name":"Expose","description":"Blends in entire background with a half transparent color and gives a round taste to most buttons.","author":"Corbs","version":"Beta"}*//{}
 
-
 :root {
-    --version: "Expose X v0.7";
+    --version: "Expose X v0.7.2";
     --greybackground: #33363B !important;
-  --i-tbr-btninvert: 0%;
-  --i-tbr-closeimg: url("https://cdn.discordapp.com/attachments/433250325407727616/434017806820835329/Design_8.png");
-  --i-tbr-maximizeimg: url("https://cdn.discordapp.com/attachments/433250325407727616/434017810751029248/Design_6.png");
-  --i-tbr-minimizeimg: url("https://cdn.discordapp.com/attachments/433250325407727616/434017808934764555/Design_7.png"); 
 }
-
-
-/* Fixed MacOS Titlebar Buttons */
-
-/* NOT FIXED YET */
-
-/* */
-
-/* Old Titlebar */
-
-.typeWindows-15E0Ys {
-    height: 18px;
-    margin-top: 0px;
-}
-
-.titleBar-3_fDwJ .winButton-U7zAqI {
-    display: block;
-    height: 30px;
-    width: 30px;
-    position: relative;
-    top: 0;
-    background-color: transparent;
-    background-size: 18px;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: .6;
-    filter: var(--i-tbr-btninvert);
-    margin-top: 0px;
-    margin-left: 6px;
-    z-index: 100;
-}
-
-
-
-.titleBar-3_fDwJ {
-  height: 30px;
-  width: calc(30px * 3);
-  margin: 0;
-  padding: 9px 8px;
-  position: absolute;
-  top: -48px;
-  right: 0;
-  -webkit-app-region: no-drag; }
-  .titleBar-3_fDwJ:before {
-    content: ' ';
-    display: block;
-    height: 14px;
-    width: 100vw;
-    position: absolute;
-    top: 4px;
-    right: 0;
-    z-index: 3000;
-    -webkit-app-region: drag; }
-  .titleBar-3_fDwJ .winButton-U7zAqI {
-    display: block;
-    height: 30px;
-    width: 30px;
-    position: relative;
-    top: 48px;
-    background-color: transparent;
-    background-size: 22px;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: .6;
-    filter: var(--i-tbr-btninvert); }
-    .titleBar-3_fDwJ .winButton-U7zAqI:hover {
-      opacity: .8; }
-  .titleBar-3_fDwJ div:nth-of-type(2) {
-    background-image: var(--i-tbr-closeimg); }
-  .titleBar-3_fDwJ div:nth-of-type(3) {
-    background-image: var(--i-tbr-maximizeimg); }
-  .titleBar-3_fDwJ div:nth-of-type(4) {
-    background-image: var(--i-tbr-minimizeimg); }
-  .titleBar-3_fDwJ .wordmark-2L03Wr, .titleBar-3_fDwJ .winButton-U7zAqI svg {
-    display: none; }
-
-.title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe, .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe, .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe {
-  margin-right: 98px; }
-  .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
-    content: ' ';
-    height: 22px;
-    width: 1px; }
-    .theme-dark .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .theme-dark .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .theme-dark .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
-      background-color: rgba(247, 247, 248, 0.1); }
-    .theme-light .title-qAcLxz .flex-lFgbSz.horizontal-2BEEBe:after, .theme-light .titleCall-3X0yGQ .flex-lFgbSz.horizontal-2BEEBe:after, .theme-light .headerBar-cxbhPD .flex-lFgbSz.horizontal-2BEEBe:after {
-      background-color: rgba(114, 118, 126, 0.3); }
-
-
-
-  /*  */
-  /* Make header(part of titlbar) draggable to move Discord around */
-
-  .channelName-1G03vu {
-    height: 22px;
-    margin-right: 4px;
-    -webkit-app-region: drag;
-}
-
-.theme-dark .topic-1KFf6J {
-    color: hsla(240,6%,97%,.6);
-    -webkit-app-region: drag;
-}
-
-
-/* */
-
 
 /* Better Reddux Plugin */
 
@@ -342,7 +231,7 @@
     margin-bottom: 5px;
     margin-top: 5px;
     border: 4px solid transparent;
-    border-radius: 12px;
+    border-radius: 50px !important;
     margin-left: 10px;
 }
 
@@ -382,7 +271,7 @@
 
 .bd-blue .bd-modal-wrapper .footer button {
     background-color: #3a71c1;
-    border-radius: 50px;
+    border-radius: 50px !important;
 }
 
 .bd-modal-wrapper .header {
@@ -709,11 +598,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,.4);
     box-sizing: border-box;
-    height: 385px;
-    margin-left: -402px;
+    height: 445px;
+    margin-left: -416px;
     margin-right: -605px;
-    margin-top: -12px;
-    width: 630px;
+    margin-top: -42px;
+    width: 670px;
     opacity: 0.5;
 }
 
@@ -752,7 +641,7 @@ body {
 
 .uploadModal-2KN6Mm .inner-1-09ZV .channelTextAreaUpload-10Oncb {
     margin-bottom: -63px;
-    margin-top: 214px;
+    margin-top: 244px;
     width: 411px;
 }
 
@@ -2420,11 +2309,6 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     background-position: 50%!important;
 }
 
-.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
-    color: rgba(240,71,71,.8);
-    background-color: #3b404c;
-}
-
 
 
 #bd-settings-sidebar .ui-tab-bar-item:hover {
@@ -2765,21 +2649,37 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 }
 
 .theme-dark .menu-3BZuDT {
-    -webkit-box-shadow: 0 0 0px rgba(0,0,0,.0), 0 0px 0px rgba(0,0,0,.0);
-    background: transparent;
-    box-shadow: 0 0 0px rgba(0,0,0,.0), 0 0px 0px rgba(0,0,0,.0);
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1);
+    background: rgba(40, 43, 48, 0);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,.1);
 }
 
 .theme-dark .item-rK1j5B {
     color: hsl(0, 0%, 0%);
 }
 
+.theme-dark .item-rK1j5B:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
 .popout-2RRwAO {
     -webkit-box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1);
     -webkit-filter: blur(0);
     border-radius: 5px;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0), 0 1px 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0), 0 1px 4px rgba(0, 0, 0, 0);
     contain: layout;
     padding: 0;
     z-index: 1000;
+}
+
+#friends .tab-bar .tab-bar-item {
+    border-radius: 104px;
+    color: #99aab5;
+    cursor: pointer;
+    line-height: 18px;
+    margin: 0 8px;
+    min-width: 40px;
+    padding: 2px 8px;
+    text-align: center;
 }
