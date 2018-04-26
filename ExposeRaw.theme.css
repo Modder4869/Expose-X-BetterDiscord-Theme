@@ -1,7 +1,7 @@
 //META{"name":"Expose","description":"Blends in entire background with a half transparent color and gives a round taste to most buttons.","author":"Corbs","version":"Beta"}*//{}
 
 :root {
-    --version: "Expose X v0.7.2";
+    --version: "Expose X v0.7.4";
     --greybackground: #33363B !important;
 }
 
@@ -341,15 +341,14 @@
 
 .titleBar-3_fDwJ::before {
     content: var(--version);
-    color: #adaeb0;
+    color: #b8b9bb;
     font-size: 10px;
     font-weight: 500;
     position: fixed;
     -webkit-app-region: drag;
     left: 72px;
     top: 8px;
-    width: 90px;
-    font-weight: bold;
+    width: 168px;
 }
 
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3g68GS {
@@ -604,7 +603,7 @@ body {
     margin-right: -605px;
     margin-top: -42px;
     width: 670px;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .uploadModal-2KN6Mm .inner-1-09ZV .comment-1faMgX {
@@ -695,6 +694,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     padding: 10px;
+    width: 520px;
 }
 
 .theme-dark .wrapper-FOHcde {
@@ -719,6 +719,63 @@ body {
     perspective: 1000;
     width: 520px;
 }
+
+/* Emoji Button - Custom Icon */
+
+.theme-dark .inner-3if5cm:hover .emojiButton-38mF6t{
+    opacity:1;
+    transform: scale(1.02);
+}
+.theme-dark .channel-textarea-emoji {
+    opacity: 1;
+}
+.emojiButton-38mF6t>.sprite-3pvJkd,
+.channel-textarea-emoji>.sprite-item {
+    display: none;
+}
+.emojiButton-38mF6t {
+    position: relative;
+    left: 5px;
+    top: 18px;
+    opacity: 1;
+}
+.emojiButton-38mF6t,
+.channel-textarea-emoji {
+    background-image: url(https://cdn.discordapp.com/attachments/433250325407727616/439050118445006849/Emoji-Normal.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 75%;
+    filter: brightness(0.4);
+    height: 40px;
+    width: 40px;
+    display: block;
+    border-radius: 3px;
+    opacity: 1!important;
+    margin-top: -20px;
+}
+
+.emojiButton-38mF6t:hover {
+    background-color: transparent;
+    filter: brightness(1);
+    opacity: 1!important;
+    border-radius: 50px;
+    transform: scale(1.02);
+}
+.emojiButton-38mF6t:active {
+    background-color: var(--accent-color); 
+    border-radius: 50px;
+    transform: scale(1.02);
+}
+
+.emojiButton-38mF6t.popout-open {
+    background-color: var(--accent-color);
+    filter: brightness(1);
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+
+/* */
 
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
     background: -webkit-gradient(linear,left top,left bottom,from(rgb(51, 54, 59)),to(rgba(47,49,54,.3)));
@@ -1125,7 +1182,7 @@ body {
     background: transparent no-repeat 50% 50%;
     background-size: 18px 18px;
     border: none;
-    border-radius: 3px;
+    border-radius: 50px;
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2262,7 +2319,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
   }
   .guilds-wrapper .scroller-wrap {
       width: 200px;
-      margin-top: 21px;
+      margin-top: 2px;
   }
 
   .system-message .system-message-icon {
