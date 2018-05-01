@@ -1,7 +1,7 @@
 //META{"name":"Expose","description":"Blends in entire background with a half transparent color and gives a round taste to most buttons.","author":"Corbs","version":"Beta"}*//{}
 
 :root {
-    --version: "Expose X v0.7.4";
+    --version: "Expose X v0.7.5";
     --greybackground: #33363B !important;
 }
 
