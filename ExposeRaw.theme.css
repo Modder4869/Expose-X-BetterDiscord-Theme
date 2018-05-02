@@ -1,9 +1,16 @@
-//META{"name":"Expose","description":"Blends in entire background with a half transparent color and gives a round taste to most buttons.","author":"Corbs","version":"Beta"}*//{}
+//META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/rjfBmeb. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"LOL"}*//{}
 
 :root {
-    --version: "Expose X v0.7.5";
+    --version: "Expose X v1.0";
     --greybackground: #33363B !important;
 }
+
+.wordmark-2iDDfm {
+    left: 14px;
+    top: 6px;
+}
+
+
 
 /* Better Reddux Plugin */
 
@@ -357,8 +364,8 @@
     font-weight: 500;
     position: fixed;
     -webkit-app-region: drag;
-    left: 72px;
-    top: 8px;
+    left: 14px;
+    bottom: 8px;
     width: 168px;
 }
 
@@ -508,6 +515,8 @@ body {
     opacity: 1;
     border-radius: 50px;
 }
+
+
 
 .wumpusWrapper-yrvoR3 {
     margin-top: 20px;
