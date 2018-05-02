@@ -1444,6 +1444,7 @@ body {
 
 .appMount-3VJmYg {
     background-color: #35383d;
+    background-image: var(--backgroundimage, none);
 }
 
 .theme-dark .item-3T2z1R {
