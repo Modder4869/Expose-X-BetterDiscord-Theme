@@ -2,6 +2,6 @@
 
 @import url(https://cdn.rawgit.com/CorbsEditor/Expose-X-BetterDiscord-Theme/master/ExposeRaw.theme.css);
 
-.appMount-3VJmYg {
-    background-image: url(PutSexyImageURL Here);
+:root {
+    --backgroundimage: url(PutSexyImageURL Here);
 }
