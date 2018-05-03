@@ -1,0 +1,21 @@
+//META{"name":"Small Members Tab","description":"Hides the entire members tab. Hover the cursor to right edge to make it pop up.","author":"Corbs","version":"LOL"}*//{}
+
+
+.theme-dark .members-1998pB {
+    transform: translateX(0px);
+    transition: all 200ms ease;
+
+}
+
+.scroller-2FKFPG.members-1998pB:hover {
+    background-color: #33363B;
+    transform: translateX(-200px);
+    transition: all 200ms ease;
+    z-index: 20;
+}
+
+.theme-dark .members-1998pB:hover {
+    background-color: rgba(47, 49, 54, 0);
+    margin-left: 219px;
+    transition: all 200ms ease;
+    }
