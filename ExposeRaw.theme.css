@@ -1,7 +1,7 @@
 //META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/rjfBmeb. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"LOL"}*//{}
 
 :root {
-    --version: "Expose X v1.0";
+    --version: "Expose X v1.0.1";
     --greybackground: #33363B !important;
 }
 
@@ -10,7 +10,69 @@
     top: 6px;
 }
 
+/* Games Tab */
+.theme-dark .activityFeed-28jde9 {
+    background-color: rgba(53, 56, 61, 0);
+}
 
+.arrow-3P7Bg_ {
+    -webkit-transition: opacity .2s ease-in-out;
+    color: #fff;
+    opacity: 1;
+    position: relative;
+    transition: opacity .2s ease-in-out;
+    background-color: #35383d;
+    border-radius: 50px;
+}
+
+.dot-27V-Ot {
+    border-radius: 50px;
+}
+
+.theme-dark .body-1SVoBw {
+    background-color: #202225;
+}
+
+.theme-dark .body-SKIE6r {
+    background-color: rgba(53, 56, 61, 0);
+}
+
+.theme-dark .card-7JP0BX {
+    background-color: #2f3136;
+    border-color: rgba(32, 34, 37, 0);
+    color: #f6f6f7;
+}
+
+.iconHover-27CwXP:hover {
+    transform: scale(1.05)
+    cursor: pointer;
+}
+
+/* */
+
+/* Server Error - Server Down D: */
+
+.guilds-wrapper .guilds-error {
+    -webkit-box-sizing: border-box;
+    background: #f04747;
+    border: 2px solid #f04747;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: #fff!important;
+    display: block;
+    font-size: 84px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 46px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    transform: scale(0.7);
+}
+
+
+
+/* */
 
 /* Better Reddux Plugin */
 
@@ -263,15 +325,15 @@
 /* */
 
 .contextMenu-HLZMgh theme-dark {
-	transition: all 200ms ease;
+    transition: all 200ms ease;
 }
 
 ..contentDefaultText-3vZplL, .contentDefaultVoice-2ko43i, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO, .contentLockedText-1aHuz8, .contentLockedVoice-1gx-SP, .contentMutedText-2y6aPQ, .contentMutedVoice-2lJ0UD, .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .contentUnreadText-2vNnZc, .contentUnreadVoice-1dijOt {
-	transition: all 200ms ease;
+    transition: all 200ms ease;
 }
 
 .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
-	transition: all 200ms ease;
+    transition: all 200ms ease;
 }
 
 .bd-modal-wrapper .bd-modal-inner {
@@ -1670,7 +1732,7 @@ body {
 .contentSelectedText-3wUhMi {
     background-color: rgb(114, 137, 218);
     border-radius: 50px;
-   	transition: all 200ms ease;
+    transition: all 200ms ease;
 
 }
 
@@ -1678,7 +1740,7 @@ body {
     background-color: #43b581;
     color: #fff;
     border-radius: 50px;
-       	transition: all 200ms ease;
+        transition: all 200ms ease;
 
 }
 
@@ -1762,45 +1824,70 @@ body {
     color: rgba(114, 118, 125, 0);
 }
 
+.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+    transition: all 200ms ease;
+    background-color: transparent;
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: rgba(153,170,181,.5);
+    margin-top: 30px;
+}
+
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-shadow {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(32,34,37,.6);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0), 0 0 0 1px rgba(32, 34, 37, 0);
+}
+
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
+    background-color: hsla(0, 0%, 0%, 0);
+    pointer-events: auto;
+}
+
+.botTagInvert-18-95s {
+    background: rgba(255, 255, 255, 0);
+    color: #7289da;
+    border-radius: 50px;
+}
+
+.theme-dark .input-cIJ7To:hover {
+    border-color: rgba(4, 4, 5, 0) !important;
+    border-radius: 50px !important;
+}
+
+.theme-dark .input-cIJ7To:focus {
+    border-color: rgba(114, 137, 218, 0);
+}
+
+.theme-dark .separator-2zcjq8 {
+    border-bottom-color: hsla(0, 0%, 96%, 0);
+}
+
+.theme-dark .footer-2yfCgX {
+    -webkit-box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0);
+    background-color: rgba(47, 49, 54, 0);
+    box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0);
+}
+6e4f369….css:1
 
 
 /* Members Tab */
 .theme-dark .members-1bid1J {
     transform: translateX(0px);
-    transition: all 200ms ease;
-
 }
 
 .scroller-fzNley.members-1bid1J:hover {
     background-color: #33363B;
     transform: translateX(0px);
-    transition: all 200ms ease;
     z-index: 20;
 }
 
 .theme-dark .members-1bid1J:hover {
     background-color: rgba(47, 49, 54, 0);
     margin-left: 0px;
-    transition: all 200ms ease;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+/* */
 
 .downloadLink-2oSgiF {
     -webkit-transition: opacity .15s ease;
@@ -2801,13 +2888,13 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 
 
 .avatar-3EQepX:hover {
-	transform: scale(1.05);
-	transition: all 200ms ease;
+    transform: scale(1.05);
+    transition: all 200ms ease;
     box-shadow: box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,.1);
 }
 
 .avatar-3EQepX {
-	transition: all 200ms ease;
+    transition: all 200ms ease;
 }
 
 .avatarHint-1qgaV3 {
