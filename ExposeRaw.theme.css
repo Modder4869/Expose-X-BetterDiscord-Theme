@@ -1780,6 +1780,7 @@ body {
 
 .theme-dark .members-1bid1J:hover {
     background-color: rgba(47, 49, 54, 0);
+    margin-left: 0px;
     transition: all 200ms ease;
     }
 
