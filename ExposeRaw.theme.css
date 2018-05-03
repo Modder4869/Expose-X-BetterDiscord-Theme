@@ -10,6 +10,127 @@
     top: 6px;
 }
 
+
+/* -_- for white theme users >_< my eyes */
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #ababab;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    color: hsl(0, 0%, 74%);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 50px;
+    word-wrap: normal;
+}
+
+.theme-light .headerNormal-T_seeN {
+    background-color: #ffffff;
+}
+
+.theme-light .headerSpotify-zpWxgT {
+    background: #ffffff;
+}
+
+.theme-light .headerPlaying-j0WQBV {
+    background: #ffffff;
+}
+
+.theme-light .activity-11LB_k {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.theme-light .button-2b6hmh {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background: rgb(196, 197, 200) no-repeat 50% 50%;
+    background-size: 18px 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    opacity: .6;
+    padding: 0;
+    position: relative;
+    width: 32px;
+    margin-left: 10px;
+}
+
+.theme-light .private-channels .channel .channel-name {
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    color: #000000;
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 1;
+    overflow: hidden;
+    padding-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+/* */
+
+/* Custom CSS Menu */
+
+.ace-monokai {
+    background-color: #131313;
+    color: #F8F8F2;
+}
+
+.ace-monokai .ace_gutter {
+    background: #131313;
+    color: #f1f1f1;
+}
+
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+    background: #131313;
+    color: #FFF;
+    border: 0;
+    box-shadow: 0 1px 0 0 #131313 inset;
+}
+
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+    border-radius: 50px;
+}
+
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+    border-radius: 50px;
+}
+
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+    border-radius: 50px;
+}
+
+
+
+/* */ 
+
+.theme-dark .image-3fVkBI {
+    background-image: url(https://cdn.discordapp.com/attachments/433250325407727616/441596578978070556/18.png);
+}
+
 /* Games Tab */
 .theme-dark .activityFeed-28jde9 {
     background-color: rgba(53, 56, 61, 0);
