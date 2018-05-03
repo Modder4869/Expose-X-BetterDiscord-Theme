@@ -1488,6 +1488,19 @@ body {
     width: 20px;
 }
 
+.activity-11LB_k {
+    background-color: rgb(32, 34, 37);
+    padding: 10px;
+}
+
+.headerPlaying-j0WQBV {
+    background: #202225;
+}
+
+.headerSpotify-zpWxgT {
+    background: #202225;
+}
+
 
 
 .theme-dark .chat form {
@@ -1499,6 +1512,11 @@ body {
     background-color: rgba(41, 53, 72, 0);
 }
 
+.header-GwIGlr {
+    -webkit-transition: background-color .2s ease;
+    padding: 0px;
+    transition: background-color .2s ease;
+}
 
 .theme-dark .divider-3573oO {
     background-color: hsla(218, 5%, 47%, 0);
@@ -1745,6 +1763,25 @@ body {
 }
 
 
+
+/* Members Tab */
+.theme-dark .members-1bid1J {
+    transform: translateX(0px);
+    transition: all 200ms ease;
+
+}
+
+.scroller-fzNley.members-1bid1J:hover {
+    background-color: #33363B;
+    transform: translateX(0px);
+    transition: all 200ms ease;
+    z-index: 20;
+}
+
+.theme-dark .members-1bid1J:hover {
+    background-color: rgba(47, 49, 54, 0);
+    transition: all 200ms ease;
+    }
 
 
 
