@@ -1351,7 +1351,33 @@ body {
     height: 380px;
 }
 
+/* Right-Click Menu */
 
+.theme-dark .itemGroup-1tL0uz {
+    border-color: hsla(0, 0%, 96%, 0);
+}
+
+.theme-dark.contextMenu-HLZMGh {
+    -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,0);
+    background: rgba(40, 43, 48, 0);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,0);
+}
+
+.theme-dark .itemSubMenu-1vN_Yn:hover {
+    background: rgb(37, 38, 41) url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
+}
+
+.theme-dark .item-1Yvehc {
+    color: hsla(0,0%,100%,.6);
+    background-color: #252629;
+    border-radius: 50px;
+}
+
+.checkbox .checkbox-inner span {
+    border-radius: 50px;
+}
+
+/* */
 
 
 .channelTextArea-rNsIhG {
@@ -1487,6 +1513,10 @@ body {
     min-height: 258px;
     perspective: 1000;
     width: 520px;
+}
+
+.theme-dark .noChannel-Z1DQK7 {
+    background: rgba(54, 57, 63, 0);
 }
 
 /* Emoji Button - Custom Icon */
