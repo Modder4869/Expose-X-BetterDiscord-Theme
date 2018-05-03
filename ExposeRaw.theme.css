@@ -1444,7 +1444,6 @@ body {
 
 .appMount-3VJmYg {
     background-color: #35383d;
-    background-image: var(--backgroundimage, none);
 }
 
 .theme-dark .item-3T2z1R {
@@ -2313,30 +2312,6 @@ div.avatar-large {
 
 
 /* */
-
-
-/* Small Members Tab */
-.theme-dark .members-1998pB {
-    transform: translateX(0px);
-    transition: all 200ms ease;
-
-}
-
-.scroller-2FKFPG.members-1998pB:hover {
-    background-color: #33363B;
-    transform: translateX(-200px);
-    transition: all 200ms ease;
-    z-index: 20;
-}
-
-.theme-dark .members-1998pB:hover {
-    background-color: rgba(47, 49, 54, 0);
-    margin-left: 219px;
-    transition: all 200ms ease;
-    }
-
-/* end of Small Members Tab */
-
 
 .flex-horizontal>.flex-spacer {
     min-width: 1px;
